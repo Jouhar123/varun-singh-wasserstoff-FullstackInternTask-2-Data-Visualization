@@ -1,10 +1,15 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dashboardRoutes = require('./Dash-routes');
-const cors = require('cors');
 const { DB_URL, PORT } = require('./constants'); // Importing constants
-
 const app = express();
+const cors = require('cors');
+
+app.use(cors({
+  origin: 'https://varun-singh-wasserstoff-fu-git-b58d83-jouhars-projects-cc1cf60b.vercel.app/'
+}));
+
+
 
 // Middleware
 app.use(cors());

@@ -10,7 +10,7 @@ const buildQueryString = (filters) => {
 };
 
 // Base API URL
-const API_URL = 'http://localhost:5000/api/filtered/Dashboard';
+const API_URL = 'https://backend-lf6fatpg1-jouhars-projects-cc1cf60b.vercel.app/api/filtered/Dashboard';
 
 // Fetch data with filters applied
 export const fetchData = async (filters) => {

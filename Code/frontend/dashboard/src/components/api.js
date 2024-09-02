@@ -10,7 +10,7 @@ const buildQueryString = (filters) => {
 };
 
 // Base API URL
-const API_URL = 'https://backend-dashboard-4n0z2kr86-jouhars-projects-cc1cf60b.vercel.app/api/filtered/Dashboard';
+const API_URL = 'https://varun-singh-wasserstoff-fu-git-648dd4-jouhars-projects-cc1cf60b.vercel.app/api/filtered/Dashboard';
 
 // Fetch data with filters applied
 export const fetchData = async (filters) => {
